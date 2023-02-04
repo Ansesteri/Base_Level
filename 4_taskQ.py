@@ -28,7 +28,7 @@ class Window:
                 
     def _check_keydown_events(self, event):
         if event.key == pygame.K_ESCAPE:
-                sys.exit()
+            sys.exit()
 
     def _update_screen(self):
         self.screen.fill(self.settings.bg_color)
